@@ -1,0 +1,36 @@
+# Ambiente virtual
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Saídas do pipeline (não versionar resultados)
+saida/
+!saida/.gitkeep
+
+# Entradas (documentos do usuário — pesados/privados)
+entrada/*
+!entrada/.gitkeep
+
+# Fixtures de teste (imagens de exemplo)
+tests/fixtures/*
+!tests/fixtures/.gitkeep
+
+# Variáveis de ambiente
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Sistema
+Thumbs.db
+.DS_Store

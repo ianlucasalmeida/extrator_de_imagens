@@ -1,0 +1,4 @@
+# Modelo local de identificação (opcional — pesado, ~1GB de download)
+torch>=2.2
+torchvision>=0.17
+pybioclip>=1.0
